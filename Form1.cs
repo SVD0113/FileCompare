@@ -255,7 +255,7 @@ namespace FileCompare
                 }
             }
         }
-
+         
         private void btnRightDir_Click(object sender, EventArgs e)
         {
             using (var dlg = new FolderBrowserDialog())
