@@ -95,6 +95,7 @@
             this.btnCopyFromLeft.TabIndex = 2;
             this.btnCopyFromLeft.Text = ">>>";
             this.btnCopyFromLeft.UseVisualStyleBackColor = true;
+            this.btnCopyFromLeft.Click += new System.EventHandler(this.btnCopyToRight_Click);
             // 
             // panel1
             // 
@@ -117,7 +118,7 @@
             this.columnHeader2,
             this.columnHeader3});
             this.lvwLeftDir.HideSelection = false;
-            this.lvwLeftDir.Location = new System.Drawing.Point(13, 88);
+            this.lvwLeftDir.Location = new System.Drawing.Point(16, 88);
             this.lvwLeftDir.Name = "lvwLeftDir";
             this.lvwLeftDir.Size = new System.Drawing.Size(379, 316);
             this.lvwLeftDir.TabIndex = 4;
@@ -298,6 +299,7 @@
             this.btnCopyFromRight.TabIndex = 2;
             this.btnCopyFromRight.Text = "<<<";
             this.btnCopyFromRight.UseVisualStyleBackColor = true;
+            this.btnCopyFromRight.Click += new System.EventHandler(this.btnCopyToLeft_Click);
             // 
             // Form1
             // 
